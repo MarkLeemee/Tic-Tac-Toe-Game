@@ -17,10 +17,10 @@
 -   빙고 없이 모든 칸이 찼을 때, 무승부 표시
 
 
-
+   
 ### html 작업
 
-```
+```html
 <!doctype html>
 <html lang="ko">
 <head>
@@ -55,6 +55,7 @@
 </html>
 ```
 
+   
 -   `message` 클래스에 현재 상태 및 결과 출력
 -   게임에 필요한 9칸을 empty 클래스로 생성
 -   Start & Restart 버튼은 각각 생성
