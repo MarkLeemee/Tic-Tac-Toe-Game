@@ -353,9 +353,9 @@ function checkDraw() {
 ## 4\. Study & Challenge
 
 -   승패를 확인하기 위하여, 총 9개의 칸들을 어떻게 구분하고 어떻게 확인할지가 키포인트 였습니다.
-    
--   querySelectAll로 가져온 유사배열 형태의 empty 클래스들을 배열로 전환하여 각각의 index로 구분
-    
+
+- querySelectAll로 가져온 유사배열 형태의 empty 클래스들을 배열로 전환하여 각각의 index로 구분
+
 -   또한, 승패를 확인하기 위해 대각선까지 확인하는 direct 배열 보다는, 빙고가 되는 경우의 수 맵을 만들어 활용
-    
--   게임이 끝난 뒤에는 "removeEventListener"로 버튼 이벤트 비활성화를 하여 오류를 방지
+
+- 게임이 끝난 뒤에는 "removeEventListener"로 버튼 이벤트 비활성화를 하여 오류를 방지
